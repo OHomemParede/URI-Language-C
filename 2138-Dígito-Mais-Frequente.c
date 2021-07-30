@@ -34,7 +34,7 @@ int main(){
       v[((int)c)-'0']++;
     }
 
-    else{
+    else{ // ao entrar nesse else significa que houve um \n quebra de linha.
       printf("%d\n", most_often(v));
       reset(v);
     }
